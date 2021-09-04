@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id = "heading"><u>BMI Calculator</u></h2>
+        <form action="" target="">
+            <table>
+                <tr>
+                    <th>Weight</th>
+                    <td><input type="number" required id = "weight" placeholder="Enter your weight"></td>
+                    <td>
+                        <select name="weight-unit" id="weight-unit">
+                            <option value="kilogram">kgs</option>
+                            <option value="pounds">lbs</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <td><input type="number" required id = "height"  placeholder="Enter your height"></td>
+                    <td>
+                        <select name="height-unit" id="height-unit">
+                            <option value="meter">m</option>
+                            <option value="inches">in</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class = "buttons">
+                    <th colspan="2"><button onclick="bmi()">Calculate</button></th> 
+                    <th colspan="2"><button>Reset</button></th>
+                </tr>
+            </table>
+            <div id = "out"></div>
+        </form>
+    </div>
+    <div>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

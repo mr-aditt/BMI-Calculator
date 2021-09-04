@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(80, 80, 80);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    padding: 10%;
+    width: 50%;
+}
+
+.container {
+    text-align: center;
+    border: solid black;
+    background-color:rgb(129, 17, 105);
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    /* border: solid green; */
+}
+
+/* tr, td {
+    border: 2px dotted blue;
+} */
+
+button {
+    display:block ;
+    /* justify-content: center; */
+    /* padding-top: 300px; */
+    /* padding-left: 30%; */
+}
+
+.red {
+    color: red;
+    font-weight: bolder;
+}
+
+.maroon {
+    color: maroon;
+    font-weight: bolder;
+}
+
+.green {
+    color: green;
+    font-weight: bolder;
+}
